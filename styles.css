@@ -41,9 +41,9 @@ pre, code {
   display: block;
   padding: 2px;
 }
-@media (max-width: 400px) {
+@media (max-width: 550px) {
   body {
-    max-width: 400px;
+    max-width: 550px;
     margin: 0 auto;
   }
   #navbar {
@@ -78,11 +78,8 @@ pre, code {
   }
 }
 @media (min-width: 680px) {
-  body {
-    width: 100vw;
-  }
-  .main-section {
-    margin-left: 30vw;
+  #main-doc {
+    display: flex;
   }
   #navbar {
     position: sticky;
