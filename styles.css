@@ -78,6 +78,9 @@ pre, code {
   }
 }
 @media (min-width: 680px) {
+  body {
+    width: 100vw;
+  }
   #main-doc {
     display: flex;
   }
