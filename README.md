@@ -1,4 +1,4 @@
-# Reponsive-Web-Design-Tech-Doc-Practice
+# Reponsive-Web-Design-Tech-Doc-Project
 
 This is certification project 3 of 5 in the Responsive Web Design certification offered by freecodecamp.
 
