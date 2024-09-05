@@ -72,14 +72,20 @@ pre, code {
   #navbar a {
     text-align: center;
     padding: 8px;
-    font-size: 1.1em;
+    font-size: 1.25em;
     margin: .5px;
   }
   #navbar header {
-    font-size: 1.75em;
+    font-size: 1.85em;
     text-align: center;
     padding: 5px;
     font-weight: 600;
+  }
+  .main-section header {
+    font-size: 2em;
+  }
+  .main-section {
+    font-size: 1.25em;
   }
 }
 @media (min-width: 680px) {
@@ -112,14 +118,35 @@ pre, code {
   #navbar a {
     text-align: left;
     padding: 10px;
-    font-size: 1.5em;
+    font-size: 1.75em;
     margin: 2px;
   }
   #navbar header {
-    font-size: 2.5em;
+    font-size: 2.75em;
     text-align: left;
     padding: 10px;
     font-weight: 600;
     margin-bottom: 10px;
+  }
+  .main-section header {
+    font-size: 2em;
+  }
+  .main-section {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 900px) and (max-width: 1500px) {
+  #navbar header {
+    font-size: 3.4em;
+    padding: 5px;
+  }
+  #navbar a {
+    font-size: 2.5em;
+  }
+  .main-section header {
+    font-size: 2.1em;
+  }
+  .main-section {
+    font-size: 2em;
   }
 }
